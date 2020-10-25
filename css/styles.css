@@ -1,0 +1,348 @@
+/*Top Navigation*/
+u {
+color: gold;
+}
+
+nav{
+	margin: 0;
+	padding: 0;
+	height: 11vh;
+	border: 10px;
+	border-bottom: 3px solid rgb(243, 243, 243);
+	color: black;
+}
+
+.gute {
+display: flex;
+align-items: center;
+}
+.topnav {
+	margin:0 175px;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: black;
+}
+
+
+.topnav a:hover {
+	color:orange;
+}
+
+.topnav a.logo {
+font-size: 25px;
+font-weight: bold;
+color: black;
+}
+
+/* .topnav a.active {
+	background-color: white;
+	color: orange;
+} */
+
+.logo{
+	text-decoration: none;
+}
+
+.header-right {
+list-style: none;
+text-decoration: none;
+}
+
+.link {
+list-style: none;
+text-decoration: none;
+display: flex;
+padding: 0px;
+justify-content: space-between;
+}
+
+
+.children {
+padding: 0 10 0 30px;
+margin-right: 0px;
+list-style: none;
+text-decoration: none;
+display: flex;
+justify-content: space-between;
+font-size: 13px;
+font-family: 'Open Sans', sans-serif;
+color: black;
+}
+
+.icon-list{
+	display: flex;
+	list-style: none;
+	margin-right: 50px;
+}
+
+.piece {
+	padding: 12px;
+	list-style: none;
+	background-color:#f5f3f3;
+	margin-right: 4px;
+	border-radius: 50px;
+	align-items: center;
+	}
+
+ul {
+list-style: none;
+display: flex;
+padding: 0px;
+color: black;
+}
+
+icons{
+	margin: 0px;
+}
+
+.each-line {
+	color: #f5f3f3;
+	margin-right: 20px;
+}
+
+.each {
+margin-right: 20px;
+}
+
+
+/*After Nav Section*/
+
+.topicon {
+	padding-bottom: 20px;
+}
+.aside{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.home-icon{
+	display: flex;
+	justify-content: left;
+	height: 16px;
+	margin: 0 160px;
+	padding: 25px;
+}
+
+
+.home{
+	display: flex;
+	margin: 0 200px 70px;
+}
+
+						/*body*/
+
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+}
+
+.follow {
+	display: flex;
+}
+
+/*Subscribe Section*/
+
+.caption {
+	margin-left: 50px;
+	margin-top: 30px;
+	}
+
+.subscribe {
+background-color: #f5f3f3;
+margin: 0 200px;
+display: flex;
+justify-content: space-between;
+border-radius: 1%;
+}
+
+.form {
+	
+	margin-right: 40px;
+	margin-bottom: 50px;
+	height: 10%;
+	padding: 20px;
+	border-radius: 5px;
+	align-items: center;
+	margin-top: 15px;
+	display: flex;
+}
+
+button{
+	width: 130px;
+	height: 46px;
+	border-radius: 4px;
+	font-weight: bolder;
+	background-color: gold;
+	/* margin-top: 30px; */
+	border-top-style: hidden;
+	border-right-style: hidden;
+	border-left-style: hidden;
+	border-bottom-style: hidden
+}
+
+input{
+	width: 370px;
+	height: 46px;
+	border-radius: 4px;
+	margin-right: 5px;
+	/* margin-top: 20px; */
+	border-top-style: hidden;
+	border-right-style: hidden;
+	border-left-style: hidden;
+	border-bottom-style: hidden;
+}
+
+
+/*Images*/
+
+.images{
+display: flex;
+/* justify-content: center; */
+margin: 0 200px;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+/*About Section*/
+.advert-container {
+		display: flex;
+}
+
+.column {
+	float: left;
+	width: 33.33%;
+	padding-right: 25px;
+	margin-left: 20px;
+}  
+  /* Clear floats after the columns */
+.row {
+	display: flex;
+	margin:0 200px;
+	font-size: 10px;
+}
+
+
+.about {
+display: flex;
+}
+
+.abouticon {
+display: flex;
+align-items: center;
+}
+
+.abouticon1 {
+display: flex;
+align-items: center;
+}
+
+.abouticon2 {
+display: flex;
+align-items: center;
+}
+
+.featured {
+display: flex;
+}
+
+.task {
+display: flex;
+}
+
+.column a {
+color: black;
+}
+
+.Thank {
+display: flex;
+flex-direction: column;
+}
+
+.Thank1 {
+display: flex;
+flex-direction: column;
+}
+
+.Thank2 {
+display: flex;
+flex-direction: column;
+}
+
+.Thank-sec {
+display: flex;
+align-items: center;
+}
+
+.Thankprop {
+margin-right: 10px;
+}
+
+
+
+.tasklink a {
+background-color: grey;
+color: black;
+}
+
+.clockicon {
+display: flex;
+align-items: center;
+}
+
+.firstline {
+		display: flex;
+		/* padding: 10px; */
+		list-style: none;
+		margin-right: 4px;
+		border-radius: 0px;
+}
+
+.secondline {
+	display: flex;
+	padding: 0px;
+	list-style: none;
+	margin-right: 4px;
+	border-radius: 0;
+}
+
+.firstline p {
+	padding: 10px;
+	list-style: none;
+	background-color:lightgrey;
+	margin-right: 4px;
+}
+
+
+.secondline p {
+	padding: 10px;
+	list-style: none;
+	background-color:lightgrey;
+	margin-right: 4px;
+}
+
+.bottom-text {
+	padding: 10px;
+	list-style: none;
+	background-color:lightgrey;
+	margin-right: 4px;
+	border-radius: 50px;
+}
+
+
+/*Footer*/
+footer {
+ 	text-align: center;
+ 	align-content: center;
+ }
+
+ @media screen and (max-width: 600px) {
+ .column {
+ width: 100%;
+ }
+}
